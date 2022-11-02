@@ -1,7 +1,7 @@
 # ScorllIndicator
 ### Индикатор прокрутки таблицы (страницы).
 
-Состоит из компонента _ScorllIndicator_ и хука _useScorllIndicator_.
+Состоит из компонента **ScorllIndicator** и хука **useScorllIndicator**.
 
 В этом примере расположены по пути `src/shared/lib/ScorllIndicator`.
 
