@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "sourceMap": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "baseUrl": "src"
+        // "paths": { //ссылки до директорий в проекте, для случая если они не попадают в baseUrl
+        //     "app/*": ["src/app/*"],
+        //     "pages/*": ["src/components/*"],
+        //     "shared/*": ["src/shared/*"],
+        // }
+    },
+    "exclude": ["node_modules"],
+    "include": ["src", "./global.d.ts"]
+}
